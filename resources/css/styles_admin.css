@@ -1,0 +1,111 @@
+.bg-nav{
+    background-color: #333333;
+}
+
+.sb-sidenav-five {
+  background-color: #f9fafc;
+  box-shadow: 0 8px 14px rgba(0, 0, 0, .10), 0 8px 8px rgba(0, 0, 0, .10) !important;
+}
+
+.sb-sidenav-five .sb-sidenav-menu .sb-sidenav-menu-heading {
+  color: rgba(41, 41, 41, 0.5);
+}
+
+.sb-sidenav-five .sb-sidenav-menu .nav-link {
+  color: rgba(41, 41, 41, 0.9);
+}
+
+.sb-sidenav-five .sb-sidenav-menu .nav-link .sb-nav-link-icon {
+  color: rgba(41, 41, 41, 0.9);
+}
+
+.sb-sidenav-five .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {
+  color: rgba(41, 41, 41, 0.25);
+}
+
+.sb-sidenav-five .sb-sidenav-menu .nav-link:hover {
+  color: #181818;
+  background-color: #f0efef;
+}
+
+.sb-sidenav-five .sb-sidenav-menu .nav-link.active {
+  color: #181818;
+  background-color: #f0efef;
+}
+
+.sb-sidenav-five .sb-sidenav-menu .nav-link.active .sb-nav-link-icon {
+  color: #181818;
+  background-color: #f0efef;
+}
+
+.sb-sidenav-five .sb-sidenav-footer {
+  background-color: #eeeded;
+}
+
+
+
+
+
+/* Tema Sidebar*/
+/* Estilo do Corpo */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sb-sidenav {
+    background-color: #333333;
+    color: #0072bb;
+    height: 100vh;
+}
+
+.sb-sidenav .nav-link {
+    color: #cccccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sb-sidenav .nav-link:hover,
+.sb-sidenav .nav-link.active {
+    background-color: #444444;
+    color: #ffffff;
+}
+
+.sb-sidenav .sb-nav-link-icon {
+    margin-right: 10px;
+    color: #cccccc;
+}
+
+.sb-sidenav .sb-nav-link-icon:hover {
+    color: #ffffff;
+}
+
+/* Rodapé da Sidebar */
+.sb-sidenav-footer {
+    background-color: #222222;
+    color: #cccccc;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.sb-sidenav-footer .small {
+    font-size: 0.9rem;
+}
+
+/* Navbar */
+.navbar-dark.bg-nav {
+    background-color: #333333;
+}
+
+/* Conteúdo Principal */
+#layoutSidenav_content {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding: 20px;
+}
